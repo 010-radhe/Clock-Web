@@ -1,0 +1,51 @@
+:root{
+    --primary: hsla(307, 86%, 57%, 0.65);
+    --secondary: hsla(179, 100%, 77%,0.65);
+  
+    
+}
+body{
+    height: 100vh;
+    width: 100vh;
+    
+    margin: 0%;
+    padding: 0%;
+     /* background-color: rgb(146, 116, 91);  */
+      /* background-color: rgb(233, 23, 23) */
+    
+      place-items: center;
+    place-content: center;
+    background: linear-gradient(135deg, var(--primary),var(--secondary));
+                /* url('./env.jpg') no-repeat center center; */
+    }
+.container{
+    cursor:pointer;
+    border:10px solid olivedrab;
+    font-family: "Arial", Helvetica, sans-serif;
+    padding: 30px;
+    color: #000;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    font-size: 150px;
+    white-space: nowrap;
+
+}
+
+.counter{
+
+    display: inline-block;
+    border:10px solid rgb(130, 216, 130);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50% , 230%);
+    text-align: center;
+    padding: 80px;
+    font-family: "Arial", Helvetica, sans-serif;
+    color: #000;
+    font-weight: bold;
+    font-size: 40px;
+    /* background-color: rgb(99, 99, 215); */
+}
